@@ -37,6 +37,10 @@ input[type="button"]:hover {
   background: #555;
 }
 
+legend{
+  vertical-align: bottom;
+}
+
 #results {
   margin-top: 20px;
   background: #ddd;
