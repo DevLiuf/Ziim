@@ -112,19 +112,23 @@ function createQuestionsHTML() {
     <legend>${index + 1}. ${question}</legend>
     <label>
       <input type="radio" name="question${index + 1}" value="1"> 1점
- 
+      </label>
+      <label>
       <input type="radio" name="question${index + 1}" value="2"> 2점
-
+      </label>
+      <label>
       <input type="radio" name="question${index + 1}" value="3"> 3점
-
+      </label>
+      <label>
       <input type="radio" name="question${index + 1}" value="4"> 4점
-
+      </label>
+      <label>
       <input type="radio" name="question${index + 1}" value="5"> 5점
     </label>
   </fieldset>
 </div>
     `).join('');
-  
+
   html += '<br><input type="button" value="결과 보기" onclick="calculateResults()">';  // 결과 보기 버튼 추가
   document.getElementById('timeOrientationForm').innerHTML = html;
 }

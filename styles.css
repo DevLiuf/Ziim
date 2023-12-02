@@ -14,7 +14,7 @@ h1 {
 }
 
 label {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   font-weight: bold;
 }
@@ -38,15 +38,14 @@ input[type="button"]:hover {
   background: #555;
 }
 
-legend{
+legend {
   font-weight: 600;
 }
-
-
 
 #results {
   margin-top: 20px;
   background: #ddd;
   padding: 20px;
   border-radius: 5px;
+  text-align: center;
 }
