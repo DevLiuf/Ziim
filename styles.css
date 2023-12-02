@@ -10,6 +10,7 @@ body {
 
 h1 {
   color: #444;
+  text-align: center;
 }
 
 label {
@@ -38,8 +39,10 @@ input[type="button"]:hover {
 }
 
 legend{
-  vertical-align: bottom;
+  font-weight: 600;
 }
+
+
 
 #results {
   margin-top: 20px;
